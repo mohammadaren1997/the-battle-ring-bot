@@ -1,0 +1,70 @@
+{
+  "roles": [
+    {
+      "name": "Aragorn",
+      "side": "white",
+      "ability": "protect",
+      "limitations": "cannot protect same person consecutively"
+    },
+    {
+      "name": "Gandalf",
+      "side": "white",
+      "ability": "4 checks total: 1 single check (burns 1 use), 2 mass dead checks (each burns 2 uses)",
+      "limitations": "none"
+    },
+    {
+      "name": "Legolas",
+      "side": "white",
+      "ability": "kill Saruman/Orc (1 shot)",
+      "limitations": "no effect on Sauron or Gollum (even if Orc transforms); shooting white = self death"
+    },
+    {
+      "name": "Elrond",
+      "side": "white",
+      "ability": "1 cancel execution, 1 force defense",
+      "limitations": "only 10s window to cancel execution; after use, time disappears in next days; pardoning black or independent = silent night death (not announced)"
+    },
+    {
+      "name": "Frodo",
+      "side": "white",
+      "ability": "ring bearer, shield once",
+      "limitations": "none"
+    },
+    {
+      "name": "Sam",
+      "side": "white",
+      "ability": "inherits ring if Frodo dies",
+      "limitations": "none"
+    },
+    {
+      "name": "Galadriel",
+      "side": "white",
+      "ability": "grant 2-night shield to 1 player (not self)",
+      "limitations": "can be used on any side; if shielded target attacked, Galadriel’s shield is consumed before any others"
+    },
+    {
+      "name": "Sauron",
+      "side": "black",
+      "ability": "kill at night, guess role (Eye ability, 2 uses)",
+      "limitations": "Eye guess must match exact role; success announced by bot/GM, failure remains silent"
+    },
+    {
+      "name": "Orc Commander",
+      "side": "black",
+      "ability": "double kill with Sauron (once), transform into Sauron if he dies",
+      "limitations": "must be alive and with Sauron for double kill; transformed Sauron gets only remaining abilities"
+    },
+    {
+      "name": "Saruman",
+      "side": "black",
+      "ability": "silence (3 times, not same person twice in a row), double vote once",
+      "limitations": "can silence allies, not self"
+    },
+    {
+      "name": "Gollum",
+      "side": "independent",
+      "ability": "steal ring at night",
+      "limitations": "win if holds ring for 3 cycles"
+    }
+  ]
+}
